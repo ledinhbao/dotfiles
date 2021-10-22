@@ -123,6 +123,7 @@ POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
 
 # Enable zsh syntax highlight
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 export PATH="$HOME/.gem/ruby/2.6.0/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 
