@@ -23,8 +23,9 @@ g.go_highlight_fields = 1
 g.go_highlight_variable_declarations = 1
 
 -- Settings for NvimTree
-g.nvim_tree_ignore = [ '.git', 'node_modules', '.cache' ]
+g.nvim_tree_ignore = { '.git', 'node_modules', '.cache' }
 api.nvim_set_keymap('', '<leader>t', ':NvimTreeToggle<CR>', {})
+api.nvim_set_keymap('', '<leader>r', ':NvimTreeRefresh<CR>', {})
 
 -- Keymap for Telescope
 api.nvim_set_keymap('n', '<leader>ff', ':Telescope find_files<CR>', { noremap = true }) 
