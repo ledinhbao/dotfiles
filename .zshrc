@@ -143,3 +143,4 @@ alias v='nvim'
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+alias nv='nvim'

@@ -37,5 +37,6 @@ return require('packer').startup(
         use 'marko-cerovac/material.nvim'
         use 'morhetz/gruvbox'
         use 'vijaymarupudi/nvim-fzf'
+        use 'ap/vim-css-color'
     end
 )
