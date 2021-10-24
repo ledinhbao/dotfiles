@@ -24,3 +24,6 @@ g.go_highlight_variable_declarations = 1
 
 -- keymap for NvimTree
 api.nvim_set_keymap('', '<leader>t', ':NvimTreeToggle<CR>', {})
+
+-- Keymap for Telescope
+api.nvim_set_keymap('n', '<leader>ff', ':Telescope find_files<CR>', { noremap = true }) 

@@ -38,5 +38,9 @@ return require('packer').startup(
         use 'morhetz/gruvbox'
         use 'vijaymarupudi/nvim-fzf'
         use 'ap/vim-css-color'
+        use {
+            'nvim-telescope/telescope.nvim',
+            requires = { { 'nvim-lua/plenary.nvim' } }
+        }
     end
 )
