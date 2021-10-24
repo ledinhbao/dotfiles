@@ -8,7 +8,8 @@ return require('packer').startup(
             config = function() 
                 require'lualine'.setup {
                     options = {
-                        theme = 'onedark'
+                        theme = 'gruvbox',
+                        disabled_filetypes = { 'NvimTree' },
                     }
                 }
             end
@@ -35,7 +36,6 @@ return require('packer').startup(
 
         use 'marko-cerovac/material.nvim'
         use 'morhetz/gruvbox'
-        use 'navarasu/onedark.nvim'
-        use 'tanvirtin/monokai.nvim'
+        use 'vijaymarupudi/nvim-fzf'
     end
 )

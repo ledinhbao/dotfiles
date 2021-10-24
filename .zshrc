@@ -17,7 +17,9 @@ export ZSH="/Users/ledinhbao/.oh-my-zsh"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 #ZSH_THEME="robbyrussell"
 #ZSH_THEME="powerlevel9k/powerlevel9k"
-ZSH_THEME="powerlevel10k/powerlevel10k"
+#ZSH_THEME="powerlevel10k/powerlevel10k"
+ZSH_THEME="gruvbox"
+SOLARIZED_THEME="dark"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -139,3 +141,5 @@ if [ -f '/Users/ledinhbao/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then
 alias dotfiles='/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME'
 alias v='nvim'
 
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

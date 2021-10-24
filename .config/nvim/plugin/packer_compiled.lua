@@ -74,7 +74,7 @@ _G.packer_plugins = {
     path = "/Users/ledinhbao/.local/share/nvim/site/pack/packer/start/gruvbox"
   },
   ["lualine.nvim"] = {
-    config = { "\27LJ\2\n5\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\flualine\frequire\0" },
+    config = { "\27LJ\2\n…\1\0\0\5\0\b\0\v6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\6\0005\3\3\0005\4\4\0=\4\5\3=\3\a\2B\0\2\1K\0\1\0\foptions\1\0\0\23disabled_filetypes\1\2\0\0\rNvimTree\1\0\1\ntheme\fgruvbox\nsetup\flualine\frequire\0" },
     loaded = true,
     path = "/Users/ledinhbao/.local/share/nvim/site/pack/packer/start/lualine.nvim"
   },
@@ -85,6 +85,10 @@ _G.packer_plugins = {
   nerdtree = {
     loaded = true,
     path = "/Users/ledinhbao/.local/share/nvim/site/pack/packer/start/nerdtree"
+  },
+  ["nvim-fzf"] = {
+    loaded = true,
+    path = "/Users/ledinhbao/.local/share/nvim/site/pack/packer/start/nvim-fzf"
   },
   ["nvim-tree.lua"] = {
     config = { "\27LJ\2\n;\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\14nvim-tree\frequire\0" },
@@ -98,10 +102,6 @@ _G.packer_plugins = {
   ["nvim-web-devicons"] = {
     loaded = true,
     path = "/Users/ledinhbao/.local/share/nvim/site/pack/packer/start/nvim-web-devicons"
-  },
-  ["onedark.nvim"] = {
-    loaded = true,
-    path = "/Users/ledinhbao/.local/share/nvim/site/pack/packer/start/onedark.nvim"
   },
   ["packer.nvim"] = {
     loaded = true,
@@ -120,7 +120,7 @@ try_loadstring("\27LJ\2\n;\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B
 time([[Config for nvim-tree.lua]], false)
 -- Config for: lualine.nvim
 time([[Config for lualine.nvim]], true)
-try_loadstring("\27LJ\2\n5\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\flualine\frequire\0", "config", "lualine.nvim")
+try_loadstring("\27LJ\2\n…\1\0\0\5\0\b\0\v6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\6\0005\3\3\0005\4\4\0=\4\5\3=\3\a\2B\0\2\1K\0\1\0\foptions\1\0\0\23disabled_filetypes\1\2\0\0\rNvimTree\1\0\1\ntheme\fgruvbox\nsetup\flualine\frequire\0", "config", "lualine.nvim")
 time([[Config for lualine.nvim]], false)
 if should_profile then save_profiles() end
 
