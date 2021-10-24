@@ -23,4 +23,4 @@ g.go_highlight_fields = 1
 g.go_highlight_variable_declarations = 1
 
 -- keymap for NvimTree
-api.nvim_set_keymap('', '<C-t>', ':NvimTreeToggle<CR>', {})
+api.nvim_set_keymap('', '<leader>t', ':NvimTreeToggle<CR>', {})
