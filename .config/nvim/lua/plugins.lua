@@ -49,5 +49,6 @@ return require('packer').startup(
             'nvim-telescope/telescope.nvim',
             requires = { { 'nvim-lua/plenary.nvim' } }
         }
+        use 'tpope/vim-commentary'
     end
 )
