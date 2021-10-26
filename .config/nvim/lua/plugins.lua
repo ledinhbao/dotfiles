@@ -1,7 +1,12 @@
 return require('packer').startup(
     function()
         use 'wbthomason/packer.nvim'
-
+        use {
+            'neovim/nvim-lspconfig',
+            config = function()
+                require('setting-lspconfig')
+            end
+        }
         use {
             'hoob3rt/lualine.nvim',
             requires = { 'kyazdani42/nvim-web-devicons', opt = true },
@@ -37,9 +42,6 @@ return require('packer').startup(
             'fatih/vim-go',
             run = ':GoUpdateBinaries'
         }
-        use {
-            'preservim/nerdtree'
-        }
 
         use 'marko-cerovac/material.nvim'
         use 'morhetz/gruvbox'
@@ -50,5 +52,7 @@ return require('packer').startup(
             requires = { { 'nvim-lua/plenary.nvim' } }
         }
         use 'tpope/vim-commentary'
+        use 'tpope/vim-fugitive'
+        use 'mkitt/tabline.vim'
     end
 )
