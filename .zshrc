@@ -141,6 +141,11 @@ if [ -f '/Users/ledinhbao/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then
 alias dotfiles='/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME'
 alias v='nvim'
 
-
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 alias nv='nvim'
+
+export GOPATH=$HOME/go
+export GOROOT=/usr/local/opt/go/libexec
+export GOBIN=$GOPATH/bin
+export PATH=$PATH:$GOBIN
+export PATH=$PATH:$GOROOT/bin

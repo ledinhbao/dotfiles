@@ -69,6 +69,18 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ale = {
+    loaded = true,
+    path = "/Users/ledinhbao/.local/share/nvim/site/pack/packer/start/ale"
+  },
+  ["auto-pairs"] = {
+    loaded = true,
+    path = "/Users/ledinhbao/.local/share/nvim/site/pack/packer/start/auto-pairs"
+  },
+  ["cmp-nvim-lsp"] = {
+    loaded = true,
+    path = "/Users/ledinhbao/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp"
+  },
   gruvbox = {
     loaded = true,
     path = "/Users/ledinhbao/.local/share/nvim/site/pack/packer/start/gruvbox"
@@ -82,12 +94,15 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/ledinhbao/.local/share/nvim/site/pack/packer/start/material.nvim"
   },
+  ["nvim-cmp"] = {
+    loaded = true,
+    path = "/Users/ledinhbao/.local/share/nvim/site/pack/packer/start/nvim-cmp"
+  },
   ["nvim-fzf"] = {
     loaded = true,
     path = "/Users/ledinhbao/.local/share/nvim/site/pack/packer/start/nvim-fzf"
   },
   ["nvim-lspconfig"] = {
-    config = { "\27LJ\2\n1\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\22setting-lspconfig\frequire\0" },
     loaded = true,
     path = "/Users/ledinhbao/.local/share/nvim/site/pack/packer/start/nvim-lspconfig"
   },
@@ -139,10 +154,6 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: nvim-lspconfig
-time([[Config for nvim-lspconfig]], true)
-try_loadstring("\27LJ\2\n1\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\22setting-lspconfig\frequire\0", "config", "nvim-lspconfig")
-time([[Config for nvim-lspconfig]], false)
 -- Config for: lualine.nvim
 time([[Config for lualine.nvim]], true)
 try_loadstring("\27LJ\2\n…\1\0\0\5\0\b\0\v6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\6\0005\3\3\0005\4\4\0=\4\5\3=\3\a\2B\0\2\1K\0\1\0\foptions\1\0\0\23disabled_filetypes\1\2\0\0\rNvimTree\1\0\1\ntheme\fgruvbox\nsetup\flualine\frequire\0", "config", "lualine.nvim")
